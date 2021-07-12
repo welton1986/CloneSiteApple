@@ -106,7 +106,7 @@ div a {
 
 .iphone12 .foto {
     height: 400px;
-    background-image: url(/images/iphone_12.png);
+    background-image: url(images/iphone_12.png);
     background-size: cover;
     
 }
@@ -136,7 +136,7 @@ div a {
     width: 900px;
     height: 300px;
     margin-top: 30px;
-    background-image: url(/images/iphone-12-pro.jpg);
+    background-image: url(images/iphone-12-pro.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -173,7 +173,7 @@ div a {
     height: 400px;
     width: 1000px;
     margin-top: 20px;
-    background-image: url(/images/ipad-pro.png);
+    background-image: url(images/ipad-pro.png);
     background-position: center;
     
     
@@ -204,7 +204,7 @@ div a {
 .img1 {
     width: 350px;
     height: 315px;
-    background-image: url(/images/hello.jfif);
+    background-image: url(images/hello.jfif);
     margin-left: 170px;
     margin-top: 20px;
     background-position: center;
@@ -219,7 +219,7 @@ div a {
 .img2 {
     width: 350px;
     height: 350px;
-    background-image: url(/images/relogio.jpg);
+    background-image: url(images/relogio.jpg);
     margin-left: 170px;
     background-position: center;
     
@@ -240,7 +240,7 @@ div a {
 
 .segundo .img3 {
     height: 310px;
-    background-image: url(/images/ios-15.jpg);
+    background-image: url(images/ios-15.jpg);
     margin-top: 20px;
     background-position: center;
 }
@@ -253,7 +253,7 @@ div a {
 .segundo .img4 {
     width: 350px;
     height: 320px;
-    background-image: url(/images/airTag.jpg);
+    background-image: url(images/airTag.jpg);
     margin-left: 180px;
     background-position: center;
 }
@@ -277,7 +277,7 @@ div a {
 .terceiro .img5 {
     height: 310px;
     margin-top: 20px;
-    background-image: url(/images/atmos.jpg);
+    background-image: url(images/atmos.jpg);
     background-position: center;
 }
 
@@ -290,7 +290,7 @@ div a {
 .terceiro .img6 {
     height: 300px;
     margin-top: 20px;
-    background-image: url(/images/appleTv.png);
+    background-image: url(images/appleTv.png);
     background-position: center;
 }
 
