@@ -1,0 +1,374 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    background-color:rgb(0,0,0,0.8);
+}
+
+
+nav {
+    display: flex;
+    height: 44px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+
+}
+
+li {
+    margin-left: 40px;
+    padding: 10px;
+    
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+nav a:hover {
+    color: rgba(192, 192, 192, 0.8);
+}
+
+section .principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .iphone12 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.iphone12 .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre .p1 {
+    font-size:14px ;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.sobre .p2 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link1 {
+    margin-right: 20px;
+
+}
+
+div a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #0066CC ;
+}
+
+.iphone12Pro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #000000;
+}
+
+.iphone12 .foto {
+    height: 400px;
+    background-image: url(/images/iphone_12.png);
+    background-size: cover;
+    
+}
+
+.iphone12Pro .sobre1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sobre1 .p3 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.sobre1 h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    color:#FFFFFF;
+}
+
+.foto1 {
+    width: 900px;
+    height: 300px;
+    margin-top: 30px;
+    background-image: url(/images/iphone-12-pro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ipadPro  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #000000;
+}
+
+.ipadPro .sobre2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre2 .p4 {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.sobre2 h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+    color:#FFFFFF;
+}
+
+.foto2 {
+    height: 400px;
+    width: 1000px;
+    margin-top: 20px;
+    background-image: url(/images/ipad-pro.png);
+    background-position: center;
+    
+    
+    
+}
+
+
+.principal1 {
+    height: 1500px;
+}
+
+
+.primeiro {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 500px;
+}
+.primeiro .imac {
+    width: 720px;
+    text-align:center ;
+}
+
+.primeiro a {
+    margin-right: 20px;
+}
+
+.img1 {
+    width: 350px;
+    height: 315px;
+    background-image: url(/images/hello.jfif);
+    margin-left: 170px;
+    margin-top: 20px;
+    background-position: center;
+    
+}
+
+.primeiro .clock {
+    width: 720px;
+    text-align: center;
+}
+
+.img2 {
+    width: 350px;
+    height: 350px;
+    background-image: url(/images/relogio.jpg);
+    margin-left: 170px;
+    background-position: center;
+    
+}
+
+
+
+.segundo {
+    display: flex;
+    justify-content: center;
+    background-color:#FFFFFF;
+    height: 500px;
+}
+.segundo .ios {
+    width: 720px;
+    text-align: center;
+}
+
+.segundo .img3 {
+    height: 310px;
+    background-image: url(/images/ios-15.jpg);
+    margin-top: 20px;
+    background-position: center;
+}
+
+.segundo .airTag {
+    width: 720px;
+    text-align: center;
+}
+
+.segundo .img4 {
+    width: 350px;
+    height: 320px;
+    background-image: url(/images/airTag.jpg);
+    margin-left: 180px;
+    background-position: center;
+}
+
+
+
+
+.terceiro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 500px;
+    background-color: #000000;
+}
+.terceiro .music {
+    width: 720px;
+    text-align: center;
+    background-color: #d31765;
+}
+
+.terceiro .img5 {
+    height: 310px;
+    margin-top: 20px;
+    background-image: url(/images/atmos.jpg);
+    background-position: center;
+}
+
+.terceiro .tv {
+    width: 720px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.terceiro .img6 {
+    height: 300px;
+    margin-top: 20px;
+    background-image: url(/images/appleTv.png);
+    background-position: center;
+}
+
+.terceiro h4 {
+    color: #FFFFFF;
+}
+.terceiro h5 {
+    color: #FFFFFF;
+}
+.terceiro a {
+    color: #FFFFFF;
+}
+
+
+
+
+h4 {
+    font-size: 32px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+h5 {
+    font-size: 19px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    width: 980px;
+    height: 760px;
+
+}
+
+footer p {
+    font-size: 12px;
+    color: #86868b;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #86868b;
+}
+
+footer table {
+    width: 900px;
+    font-size: 12px;
+    color: #86868b;
+    margin-bottom: 30px;
+}
+
+table th {
+    padding: 5px;
+    padding-left: 60px;
+    color: #4e4e4e;
+}
+
+table td {
+    padding:5px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+b {
+    color: #4e4e4e;
+}
+
+footer a {
+    font-size: 12px;
+    color: #86868b ;
+    padding-right: 10px;
+    border-right: 1px solid #86868b ;
+    margin-right: 10px;
+
+}
+
+
